@@ -80,7 +80,7 @@ function getUnit(_position) {
 function multipleTeamLinkBuilder(_teams) {
 	let outputString = '';
 	_teams.forEach(team => {
-		outputString += `{{tf|${team}}}`
+		outputString += `{{tf|${team}}} `
 	});
 
 	return outputString;
