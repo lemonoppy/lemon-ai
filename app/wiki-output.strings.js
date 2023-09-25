@@ -51,6 +51,10 @@ The following is the breakdown of the ${_totalPlayers} eligible players by [[wp:
 		
 {{Div col end}}
 		`
+	},
+	DSFL_PLAYER_STRING: (_season, _round, _pick, _team, _firstName, _lastName, _position) => {
+		return `{{NSFLDraft-row |draftyear={{nsfly|${_season}|nolink}} |round=${_round} |picknum=${_pick} |team={{tfnl|${_team}}} |first=${_firstName} |last=${_lastName} |dab= | position=${_position} |probowl= |hof= |note=  |cfb page exists=yes}}
+		`
 	}
 
 }

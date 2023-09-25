@@ -94,4 +94,8 @@ function getMapKeyValueByIndex(_map, _index = 0) {
 	return [[..._map][_index][0], [..._map][_index][1]];
 }
 
-export { parsePosition, parseDSFLTeam, parseISFLTeam, getNthSuffix, getUnit, multipleTeamLinkBuilder, getMapKeyValueByIndex }
+function parseName(_name) {
+	return [_name.substring(0, _name.indexOf(' ')), _name.substring(_name.indexOf(' ') + 1)]
+}
+
+export { parsePosition, parseDSFLTeam, parseISFLTeam, getNthSuffix, getUnit, multipleTeamLinkBuilder, getMapKeyValueByIndex, parseName }

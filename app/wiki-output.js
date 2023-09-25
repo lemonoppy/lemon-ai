@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { parseDSFLTeam, parseISFLTeam, parsePosition, getMapKeyValueByIndex } from './utilities.js';
+import { parseDSFLTeam, parseISFLTeam, parsePosition, getMapKeyValueByIndex, parseName } from './utilities.js';
 import STRINGS from "./wiki-output.strings.js";
 import DraftData from './data/s43dsfl.js';
 
@@ -40,6 +40,10 @@ class Main {
 		}
 
 		return STRINGS.INTRO_ISFL(_season);		 
+	}
+
+	getDSFLPlayerString(_season, _round, _pick, _team, _firstName, _lastName, _position) {
+		return STRINGS.DSFL_PLAYER_STRING(_season, _round, _pick, _team, _firstName, _lastName, _position);
 	}
 
 	getPlayerString(_player, _draftPosition, _teamCount) {
@@ -112,6 +116,9 @@ class Main {
 			POSITIONS[parsePosition(player.Position)][round - 1] += 1;
 			
 			// console.log(this.getPlayerString(draft, x, DSFL_TEAMS));
+			if (league === 'DSFL') {
+				console.log(this.getDSFLPlayerString(season, round, x, parseDSFLTeam(player.Team), parseName(player.Name)[0], parseName(player.Name)[1], parsePosition(player.Position)));
+			}
 		}
 
 		const DRAFT_COUNT_MAP = await this.buildDraftCountData(DSFL_TEAMS);
@@ -127,7 +134,6 @@ class Main {
 		const IntroString = this.getIntroString(season, league);
 
 		const EligiblePlayersSectionString = this.getEligiblePlayersSectionString(league, season, draft.length, POSITIONS);
-		console.log(EligiblePlayersSectionString)
 
     }
 }
