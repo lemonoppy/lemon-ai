@@ -32,7 +32,7 @@ const STRINGS = {
 	},
 	ELIGIBLE_PLAYERS_SECTION_DSFL: (_season, _totalPlayers, _DTCount, _DECount, _WRCount, _CBCount, _LBCount, _SCount, _RBCount, _TECount, _QBCount, _KCount, _OLCount) => {
 		return `
-==Eligible players==
+==Eligible Players==
 In order to be eligible to enter the draft, players must be at least three years removed from high school. The deadline for underclassmen to declare for the draft was January 31, {{dsfly|${_season}|nolink}}.
 		
 The following is the breakdown of the ${_totalPlayers} eligible players by [[wp:American football positions|position]]:
