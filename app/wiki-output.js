@@ -1,7 +1,7 @@
 import _ from "lodash";
 import { parseDSFLTeam, parseISFLTeam, parsePosition, getMapKeyValueByIndex, parseName, buildPipedRow, getUnit } from './utilities.js';
 import STRINGS from "./wiki-output.strings.js";
-import DraftData from './data/s41dsfl.js';
+import DraftData from './data/s40dsfl.js';
 
 const ISFL_TEAMS_COUNT = 14;
 const DSFL_TEAMS_COUNT = 8;
