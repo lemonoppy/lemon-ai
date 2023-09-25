@@ -10,6 +10,7 @@ function parsePosition(_position) {
 		case 'Safety': return 'S';
 		case 'Tight End': return 'TE';
 		case 'Wide Receiver': return 'WR';
+		case 'Kicker': return 'K';
 		default: return _position;
 	}
 }
@@ -60,4 +61,29 @@ function getNthSuffix(_number) {
 	}
 }
 
-export { parsePosition, parseDSFLTeam, parseISFLTeam, getNthSuffix }
+function getUnit(_position) {
+	switch(_position) {
+		case 'Cornerback':
+		case 'Defensive End':
+		case 'Defensive Tackle':
+		case 'Linebacker':
+		case 'Safety': return 'Defense';
+		case 'Quarterback': 
+		case 'Offensive Line':
+		case 'Running Back':
+		case 'Tight End':
+		case 'Wide Receiver': return 'Offense';
+		default: return 'Special Teams';
+	}
+}
+
+function multipleTeamLinkBuilder(_teams) {
+	let outputString = '';
+	_teams.forEach(team => {
+		outputString += `{{tf|${team}}}`
+	});
+
+	return outputString;
+}
+
+export { parsePosition, parseDSFLTeam, parseISFLTeam, getNthSuffix, getUnit, multipleTeamLinkBuilder }
