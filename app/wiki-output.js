@@ -68,6 +68,20 @@ class Main {
 			TIJ: 0,
 		};
 
+		let POSITIONS = {
+			DT: 0,
+			DE: 0,
+			WR: 0,
+			CB: 0,
+			LB: 0,
+			S: 0,
+			RB: 0,
+			TE: 0,
+			QB: 0,
+			K: 0,
+			OL: 0,
+		}
+
         for (let x = 0; x < draft.length ; x++) {
 			const player = draft[x];
 
@@ -77,20 +91,17 @@ class Main {
 
 		const DRAFT_COUNT_MAP = await this.buildDraftCountData(DSFL_TEAMS);
 
-		// console.log(this.getIntroString(season, league));
-		console.log(this.getInfoBoxString(
+		const InfoboxString = this.getInfoBoxString(
 			league, season, 
 			draft[0].Name, draft[0].Position, parseDSFLTeam(draft[0].Team), 
 			draft[draft.length - 1].Name, draft[draft.length - 1].Position, parseDSFLTeam(draft[draft.length - 1].Team), 
 			getMapKeyValueByIndex(DRAFT_COUNT_MAP, 'last')[1], getMapKeyValueByIndex(DRAFT_COUNT_MAP, 'last')[0], 
 			getMapKeyValueByIndex(DRAFT_COUNT_MAP)[1], getMapKeyValueByIndex(DRAFT_COUNT_MAP)[0], 
-			draft.length)
-		);
+			draft.length);
+
+		const IntroString = this.getIntroString(season, league);
 
 
-
-
-		// console.log(Array.from(DRAFT_COUNT_MAP))
     }
 }
 
