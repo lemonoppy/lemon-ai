@@ -63,17 +63,17 @@ function getNthSuffix(_number) {
 
 function getUnit(_position) {
 	switch(_position) {
-		case 'Cornerback':
-		case 'Defensive End':
-		case 'Defensive Tackle':
-		case 'Linebacker':
-		case 'Safety': return 'Defense';
-		case 'Quarterback': 
-		case 'Offensive Line':
-		case 'Running Back':
-		case 'Tight End':
-		case 'Wide Receiver': return 'Offense';
-		default: return 'Special Teams';
+		case 'CB':
+		case 'DE':
+		case 'DT':
+		case 'LB':
+		case 'S': return 'Defense';
+		case 'QB': 
+		case 'OL':
+		case 'RB':
+		case 'TE':
+		case 'WR': return 'Offense';
+		default: return 'Special';
 	}
 }
 

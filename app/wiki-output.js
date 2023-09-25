@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { parseDSFLTeam, parseISFLTeam, parsePosition, getMapKeyValueByIndex, parseName, buildPipedRow } from './utilities.js';
+import { parseDSFLTeam, parseISFLTeam, parsePosition, getMapKeyValueByIndex, parseName, buildPipedRow, getUnit } from './utilities.js';
 import STRINGS from "./wiki-output.strings.js";
 import DraftData from './data/s43dsfl.js';
 
@@ -46,7 +46,7 @@ class Main {
 		return STRINGS.PLAYER_STRING_DSFL(_season, _round, _pick, _team, _firstName, _lastName, _position);
 	}
 
-	buildTeamSelectionsRow(_teamSelections) {
+	buildSelectionsRow(_teamSelections) {
 		return [buildPipedRow(_teamSelections), _.sum(_teamSelections)]
 	}
 
@@ -56,17 +56,52 @@ class Main {
 			blankDraftRoundArray.push(x + 1);
 		}
 
-
 		return STRINGS.TEAM_SELECTIONS_DSFL(
 			buildPipedRow(blankDraftRoundArray, '!!', 'Round'), 
-			this.buildTeamSelectionsRow(_teamSelections['NOR']), 
-			this.buildTeamSelectionsRow(_teamSelections['POR']),
-			this.buildTeamSelectionsRow(_teamSelections['TIJ']), 
-			this.buildTeamSelectionsRow(_teamSelections['KCC']), 
-			this.buildTeamSelectionsRow(_teamSelections['BBB']), 
-			this.buildTeamSelectionsRow(_teamSelections['MIN']), 
-			this.buildTeamSelectionsRow(_teamSelections['DBD']), 
-			this.buildTeamSelectionsRow(_teamSelections['LON'])
+			this.buildSelectionsRow(_teamSelections['NOR']), 
+			this.buildSelectionsRow(_teamSelections['POR']),
+			this.buildSelectionsRow(_teamSelections['TIJ']), 
+			this.buildSelectionsRow(_teamSelections['KCC']), 
+			this.buildSelectionsRow(_teamSelections['BBB']), 
+			this.buildSelectionsRow(_teamSelections['MIN']), 
+			this.buildSelectionsRow(_teamSelections['DBD']), 
+			this.buildSelectionsRow(_teamSelections['LON'])
+		);
+	}
+
+	getSelectionByPosition(_positionSelections, _rounds) {
+		let blankDraftRoundArray = [];
+		for (let x = 0; x < _rounds; x++) {
+			blankDraftRoundArray.push(x + 1);
+		}
+
+		return STRINGS.SELECTION_BY_POSITION(
+			buildPipedRow(blankDraftRoundArray, '!!', 'Round'),
+			this.buildSelectionsRow(_positionSelections['DE']), 
+			this.buildSelectionsRow(_positionSelections['DT']),
+			this.buildSelectionsRow(_positionSelections['WR']), 
+			this.buildSelectionsRow(_positionSelections['CB']), 
+			this.buildSelectionsRow(_positionSelections['LB']), 
+			this.buildSelectionsRow(_positionSelections['S']), 
+			this.buildSelectionsRow(_positionSelections['RB']), 
+			this.buildSelectionsRow(_positionSelections['TE']),
+			this.buildSelectionsRow(_positionSelections['OL']), 
+			this.buildSelectionsRow(_positionSelections['QB']), 
+			this.buildSelectionsRow(_positionSelections['KP'])
+		);
+	}
+
+	getSelectionByUnitGroup(_positionSelections, _rounds) {
+		let blankDraftRoundArray = [];
+		for (let x = 0; x < _rounds; x++) {
+			blankDraftRoundArray.push(x + 1);
+		}
+
+		return STRINGS.SELECTION_BY_UNIT_GROUP(
+			buildPipedRow(blankDraftRoundArray, '!!', 'Round'),
+			this.buildSelectionsRow(_positionSelections['Offense']), 
+			this.buildSelectionsRow(_positionSelections['Defense']),
+			this.buildSelectionsRow(_positionSelections['Special']),
 		);
 	}
 
@@ -132,12 +167,22 @@ class Main {
 			POSITIONS[position] = [...blankDraftRoundArray];
 		});
 
+		let POSITION_UNIT_GROUP = {
+			Offense: [],
+			Defense: [],
+			Special: [],
+		}
+		Object.keys(POSITION_UNIT_GROUP).forEach(group => {
+			POSITION_UNIT_GROUP[group] = [...blankDraftRoundArray];
+		});
+
         for (let x = 0; x < draft.length ; x++) {
 			const player = draft[x];
 			const round = Math.floor(x/numTeams) + 1;
 
 			DSFL_TEAMS[parseDSFLTeam(player.Team)][round - 1] += 1;
 			POSITIONS[parsePosition(player.Position)][round - 1] += 1;
+			POSITION_UNIT_GROUP[getUnit(player.Position)][round - 1] += 1;
 			
 			// console.log(this.getPlayerString(draft, x, DSFL_TEAMS));
 			if (league === 'DSFL') {
@@ -156,11 +201,11 @@ class Main {
 			draft.length);
 
 		const IntroString = this.getIntroString(season, league);
-
 		const EligiblePlayersSectionString = this.getEligiblePlayersSectionString(league, season, draft.length, POSITIONS);
-
 		const TeamSelectionsString = this.getTeamSelectionsDSFLString(DSFL_TEAMS, Math.ceil(draft.length / numTeams));
-		console.log(TeamSelectionsString)
+		const PositionSelectionString = this.getSelectionByPosition(POSITIONS, Math.ceil(draft.length / numTeams));
+		const UnitGroupSelectionString = this.getSelectionByUnitGroup(POSITION_UNIT_GROUP, Math.ceil(draft.length / numTeams));
+		console.log(UnitGroupSelectionString)
     }
 }
 

@@ -81,6 +81,65 @@ The following is the breakdown of the ${_totalPlayers} eligible players by [[wp:
 ! London Royals || ${_LON[0]} style="background:#f2f2f2; text-align: center;"|'''${_LON[1]}'''
 |}
 		`
+	},
+	SELECTION_BY_POSITION: (_header, _DE, _DT, _WR, _CB, _LB, _S, _RB, _TE, _OL, _QB, _K) => {
+		return `
+===Selections by position===
+{| class="wikitable sortable" style="text-align:center"
+|-
+! Position !! ${_header} Total
+|-
+! {{AmFbPos|DE}}
+| ${_DE[0]} style="background:#f2f2f2; text-align: center;"|'''${_K[1]}'''
+|-
+! {{AmFbPos|DT}}
+| ${_DT[0]} style="background:#f2f2f2; text-align: center;"|'''${_DT[1]}'''
+|-
+! {{AmFbPos|WR}}
+| ${_WR[0]} style="background:#f2f2f2; text-align: center;"|'''${_WR[1]}'''
+|-
+! {{AmFbPos|CB}}
+| ${_CB[0]} style="background:#f2f2f2; text-align: center;"|'''${_CB[1]}'''
+|-
+! {{AmFbPos|LB}}
+| ${_LB[0]} style="background:#f2f2f2; text-align: center;"|'''${_LB[1]}'''
+|-
+! {{AmFbPos|S}}
+| ${_S[0]} style="background:#f2f2f2; text-align: center;"|'''${_S[1]}'''
+|-
+! {{AmFbPos|RB}}
+| ${_RB[0]} style="background:#f2f2f2; text-align: center;"|'''${_RB[1]}'''
+|-
+! {{AmFbPos|TE}}
+| ${_TE[0]} style="background:#f2f2f2; text-align: center;"|'''${_TE[1]}'''
+|-
+! {{AmFbPos|OL}}
+| ${_OL[0]} style="background:#f2f2f2; text-align: center;"|'''${_OL[1]}'''
+|-
+! {{AmFbPos|QB}}
+| ${_QB[0]} style="background:#f2f2f2; text-align: center;"|'''${_QB[1]}'''
+|-
+! {{AmFbPos|K}}
+| ${_K[0]} style="background:#f2f2f2; text-align: center;"|'''${_K[1]}'''
+|}
+		`
+	},
+	SELECTION_BY_UNIT_GROUP: (_header, _offense, _defense, _specialTeams) => {
+		return `
+{| class="wikitable sortable" style="text-align:center"
+|-
+! Unit !! ${_header} Total
+|-
+! Offense
+| ${_offense[0]} style="background:#f2f2f2; text-align: center;"|'''${_offense[1]}'''
+|-
+! Defense
+| ${_defense[0]} style="background:#f2f2f2; text-align: center;"|'''${_defense[1]}'''
+|-
+! Special Teams
+| ${_specialTeams[0]} style="background:#f2f2f2; text-align: center;"|'''${_specialTeams[1]}'''
+|}
+		`
 	}
 
 }
