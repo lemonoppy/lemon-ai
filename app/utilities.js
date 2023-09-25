@@ -1,3 +1,5 @@
+import fs from 'fs';
+
 function parsePosition(_position) {
 	switch(_position) {
 		case 'Cornerback': return 'CB';
@@ -107,4 +109,27 @@ function buildPipedRow(_row, _divider = '||', _prefix = '') {
 	return outputString;
 }
 
-export { parsePosition, parseDSFLTeam, parseISFLTeam, getNthSuffix, getUnit, multipleTeamLinkBuilder, getMapKeyValueByIndex, parseName, buildPipedRow }
+function writeFile(_directory, _fileName, _content) {
+	const file = `${_directory}/${_fileName}`;
+	if (!fs.existsSync(_directory)) {
+		fs.mkdirSync(_directory, { recursive: true });
+	}
+
+	fs.writeFile(file, 
+		_content,
+		err => {
+		if (err) {
+		  console.error(err);
+		}
+	});
+}
+
+function appendFile(_file, _content) {
+	fs.appendFile(_file, _content, err => {
+		if (err) {
+		  console.error(err);
+		}
+	})
+}
+
+export { parsePosition, parseDSFLTeam, parseISFLTeam, getNthSuffix, getUnit, multipleTeamLinkBuilder, getMapKeyValueByIndex, parseName, buildPipedRow, appendFile, writeFile }

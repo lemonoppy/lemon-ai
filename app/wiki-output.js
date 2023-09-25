@@ -1,5 +1,6 @@
 import _ from "lodash";
-import { parseDSFLTeam, parseISFLTeam, parsePosition, getMapKeyValueByIndex, parseName, buildPipedRow, getUnit } from './utilities.js';
+import fs from 'fs';
+import { parseDSFLTeam, parseISFLTeam, parsePosition, getMapKeyValueByIndex, parseName, buildPipedRow, getUnit, appendFile, writeFile } from './utilities.js';
 import STRINGS from "./wiki-output.strings.js";
 import DraftData from './data/s40dsfl.js';
 
@@ -151,6 +152,8 @@ class Main {
     async startService() {
 		const { info: { season, league }, draft } = DraftData;
 		const numTeams = league === 'DSFL' ? DSFL_TEAMS_COUNT : ISFL_TEAMS_COUNT;
+		const fileDirectory = `./wiki-output/${league}`;
+		const fileName = `S${season}.txt`;
 
 		let blankDraftRoundArray = [];
 		for (let x = 0; x < draft.length / (league === 'DSFL' ? DSFL_TEAMS_COUNT : ISFL_TEAMS_COUNT); x++) {
@@ -208,30 +211,31 @@ class Main {
 
 		const DRAFT_COUNT_MAP = await this.buildDraftCountData(DSFL_TEAMS);
 
-		const InfoboxString = this.getInfoBoxString(
-			league, season, 
-			draft[0].Name, draft[0].Position, parseDSFLTeam(draft[0].Team), 
-			draft[draft.length - 1].Name, draft[draft.length - 1].Position, parseDSFLTeam(draft[draft.length - 1].Team), 
-			getMapKeyValueByIndex(DRAFT_COUNT_MAP, 'last')[1], getMapKeyValueByIndex(DRAFT_COUNT_MAP, 'last')[0], 
-			getMapKeyValueByIndex(DRAFT_COUNT_MAP)[1], getMapKeyValueByIndex(DRAFT_COUNT_MAP)[0], 
-			draft.length);
+		try {
+			const file = `${fileDirectory}/${fileName}`;
+			if (!fs.existsSync(fileDirectory)) {
+				fs.mkdirSync(fileDirectory, { recursive: true });
+			}
 
-		const IntroString = this.getIntroString(season, league);
-		const EligiblePlayersSectionString = this.getEligiblePlayersSectionString(league, season, draft.length, POSITIONS);
-		const PlayerSelectionsString = this.getPlayerSelectionsString(league, season, Math.ceil(draft.length / numTeams), draft)
-		const TeamSelectionsString = this.getTeamSelectionsDSFLString(DSFL_TEAMS, Math.ceil(draft.length / numTeams));
-		const PositionSelectionString = this.getSelectionByPosition(POSITIONS, Math.ceil(draft.length / numTeams));
-		const UnitGroupSelectionString = this.getSelectionByUnitGroup(POSITION_UNIT_GROUP, Math.ceil(draft.length / numTeams));
-		const FooterString = this.getFooterString(league);
-		
-		console.log(InfoboxString);
-		console.log(IntroString);
-		console.log(EligiblePlayersSectionString);
-		console.log(PlayerSelectionsString);
-		console.log(TeamSelectionsString);
-		console.log(PositionSelectionString);
-		console.log(UnitGroupSelectionString);
-		console.log(FooterString)
+			writeFile(fileDirectory, fileName,this.getInfoBoxString(
+				league, season, 
+				draft[0].Name, draft[0].Position, parseDSFLTeam(draft[0].Team), 
+				draft[draft.length - 1].Name, draft[draft.length - 1].Position, parseDSFLTeam(draft[draft.length - 1].Team), 
+				getMapKeyValueByIndex(DRAFT_COUNT_MAP, 'last')[1], getMapKeyValueByIndex(DRAFT_COUNT_MAP, 'last')[0], 
+				getMapKeyValueByIndex(DRAFT_COUNT_MAP)[1], getMapKeyValueByIndex(DRAFT_COUNT_MAP)[0], 
+				draft.length
+			));
+			
+			appendFile(file, this.getIntroString(season, league));
+			appendFile(file, this.getEligiblePlayersSectionString(league, season, draft.length, POSITIONS));
+			appendFile(file, this.getPlayerSelectionsString(league, season, Math.ceil(draft.length / numTeams), draft));
+			appendFile(file, this.getTeamSelectionsDSFLString(DSFL_TEAMS, Math.ceil(draft.length / numTeams)));
+			appendFile(file, this.getSelectionByPosition(POSITIONS, Math.ceil(draft.length / numTeams)));
+			appendFile(file, this.getSelectionByUnitGroup(POSITION_UNIT_GROUP, Math.ceil(draft.length / numTeams)));
+			appendFile(file, this.getFooterString(league));
+		} catch (error) {
+			console.log(`${error}`);
+		}
     }
 }
 

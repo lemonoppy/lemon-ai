@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app/index.js",
-	"wiki": "node app/wiki-output.js"
+    "wiki": "node app/wiki-output.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "lodash": "^4.17.21"
   },
   "type": "module"

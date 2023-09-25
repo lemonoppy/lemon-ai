@@ -1,0 +1,373 @@
+
+{{Infobox DSFL Draft
+	| year = {{dsfly|40|nolink}}
+	| image = DSFLDraftLogo.png
+	| imagesize = 250px
+	| caption = DSFL draft logo
+	| first = [[Mary Marie]], {{AmFBpos|S}}<br />{{tf|BBB}}
+	| mr_irrelevant = [[Ethan Mahlstedt]], {{AmFBpos|WR}}<br />{{tf|WR}}
+	| mosttm1 = {{tf|KCC}} {{tf|LON}} {{tf|POR}} {{tf|BBB}} {{tf|TIJ}} 
+	| mostnum = 15
+	| fewtm1 = {{tf|DBD}} 
+	| fewnum = 13
+	| overall = 116
+	| rounds = 15
+	| hofnum = 0
+	| prev = {{dsfly|39|nolink}}
+	| next = {{dsfly|41|nolink}}
+}}
+		
+The '''{{dsfly|40|nolink}} DSFL Draft''' was the 40th annual meeting of [[Developmental Simulation Football League]] (DSFL) franchises to select newly eligible players.
+==Eligible Players==
+In order to be eligible to enter the draft, players must be at least three years removed from high school. The deadline for underclassmen to declare for the draft was January 31, {{dsfly|40|nolink}}.
+		
+The following is the breakdown of the 116 eligible players by [[wp:American football positions|position]]:
+{{Div col|colwidth=13em|rules=yes}}
+*   9 x {{AmFBpos|DT|long}}        
+*   14 x {{AmFBpos|DE|long}}        
+*   21 x {{AmFBpos|WR|long}}       
+*   7 x {{AmFBpos|CB|long}}        
+*   13 x {{AmFBpos|LB|long}}        
+*   6 [[wp:Safety (gridiron football position)|Safeties]]
+*   12 x {{AmFBpos|RB|long}}        
+*   15  x {{AmFBpos|TE|long}}       
+*   2 x {{AmFBpos|QB|long}}        
+*   5 x {{AmFBpos|K-P|long}}       
+*   12 [[wp:Lineman (gridiron football)#Offensive line|Offensive linemen]]
+		
+{{Div col end}}
+		
+=Summary=
+===Selections by DSFL team===
+
+{| class="wikitable sortable" style="text-align:center"
+|-
+! DSFL Team !! Round 1 !! Round 2 !! Round 3 !! Round 4 !! Round 5 !! Round 6 !! Round 7 !! Round 8 !! Round 9 !! Round 10 !! Round 11 !! Round 12 !! Round 13 !! Round 14 !! Round 15 !!  Total
+|-
+! Norfolk Seawolves ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''14'''
+|-
+! Portland Pythons ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
+|-
+! Tijuana Luchadores ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
+|-
+! Kansas City Coyotes ||  1 ||  1 ||  1 ||  1 ||  1 ||  2 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
+|-
+! Bondi Beach Buccaneers ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
+|-
+! Minnesota Grey Ducks ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''14'''
+|-
+! Dallas Birddogs ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''13'''
+|-
+! London Royals ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
+|}
+		
+==Player selections==
+{| border=0 cellspacing=""0"" cellpadding=""8""
+|-
+|{{NSFLDraft-TOC |numberofrounds=15|center=yes}}
+{|style=""margin: 0.75em 0 0 0.5em;""
+|-
+| style="background:#faecc8; border:1px solid #aaa; width:2em; text-align:center;"| †
+| = [[ISFL Pro Bowl]]er<ref name="Pro Bowler note" group="N">Players are identified as Pro Bowlers if they were selected for the [[ISFL Pro Bowl]] at any time in their career.</ref>
+|-
+| style="background-color:#FFCC00; border:1px solid #aaaaaa; width:2em; text-align:center;"| ‡
+|= [[ISFL Hall of Fame|Hall of Fame]]r<ref name="HOF note" group="N">Players are identified as a Hall of Famer if they have been inducted into the [[ISFL Hall of Fame]].</ref>
+|}
+| cellspacing=""2""|
+{{AmFootball position key modern}}
+|}
+{{clear}}
+{{NSFLDraft-header | noteswidth=250pt|dsfl=no}}
+
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=1 |picknum=0 |team={{tfnl|BBB}} |first=Mary |last=Marie |dab= | position=S |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=1 |picknum=1 |team={{tfnl|TIJ}} |first=Dub |last=Redd |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=1 |picknum=2 |team={{tfnl|LON}} |first=Loose |last=Cannon |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=1 |picknum=3 |team={{tfnl|POR}} |first=Bruce |last=White |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=1 |picknum=4 |team={{tfnl|DBD}} |first=Craig |last=Brand |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=1 |picknum=5 |team={{tfnl|MIN}} |first=Artemis |last=Entreri |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=1 |picknum=6 |team={{tfnl|NOR}} |first=Rico |last=Savage |dab= | position=S |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=1 |picknum=7 |team={{tfnl|KCC}} |first=Jason |last=Steele |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=2 |picknum=8 |team={{tfnl|BBB}} |first=Oliver |last=Tolliver |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=2 |picknum=9 |team={{tfnl|TIJ}} |first=Benji |last=Aguilera |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=2 |picknum=10 |team={{tfnl|LON}} |first=Diego |last=Lopez Alonso |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=2 |picknum=11 |team={{tfnl|POR}} |first=John |last=Stark VIII |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=2 |picknum=12 |team={{tfnl|DBD}} |first=Chris |last=Mahlstedt |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=2 |picknum=13 |team={{tfnl|MIN}} |first=Billy |last=Jor-El |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=2 |picknum=14 |team={{tfnl|NOR}} |first=Kadarius |last=Claypool ll |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=2 |picknum=15 |team={{tfnl|KCC}} |first=Ray |last=Baker |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=3 |picknum=16 |team={{tfnl|BBB}} |first=Rolud |last=Onyxgut |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=3 |picknum=17 |team={{tfnl|TIJ}} |first=Ezra |last=Azazel |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=3 |picknum=18 |team={{tfnl|LON}} |first=Nick |last=Williams |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=3 |picknum=19 |team={{tfnl|POR}} |first=Benjamin |last=Duvernay |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=3 |picknum=20 |team={{tfnl|DBD}} |first=Justin |last=Willis |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=3 |picknum=21 |team={{tfnl|MIN}} |first=Bill |last=Cravy |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=3 |picknum=22 |team={{tfnl|NOR}} |first=Legs |last=McMillion |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=3 |picknum=23 |team={{tfnl|KCC}} |first=Icepick |last=O'Hullihan |dab= | position=S |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=4 |picknum=24 |team={{tfnl|POR}} |first=Jumbo |last=Edward |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=4 |picknum=25 |team={{tfnl|TIJ}} |first=Synystyr |last=Gates |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=4 |picknum=26 |team={{tfnl|LON}} |first=Max |last=Honestly |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=4 |picknum=27 |team={{tfnl|BBB}} |first=DJ |last=Maclean |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=4 |picknum=28 |team={{tfnl|DBD}} |first=Dr. |last=Livesey |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=4 |picknum=29 |team={{tfnl|MIN}} |first=Bigton |last=Hammer |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=4 |picknum=30 |team={{tfnl|NOR}} |first=Otto |last=The Orange |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=4 |picknum=31 |team={{tfnl|KCC}} |first=Bubba |last=Chubb |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=5 |picknum=32 |team={{tfnl|BBB}} |first=Bob |last=Kickerson |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=5 |picknum=33 |team={{tfnl|TIJ}} |first=Logjammed |last=McBobface |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=5 |picknum=34 |team={{tfnl|LON}} |first=Brian |last=Vincent-Vega |dab= | position=S |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=5 |picknum=35 |team={{tfnl|POR}} |first=Emile |last=Charles |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=5 |picknum=36 |team={{tfnl|DBD}} |first=Aleksander |last=Reznikov |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=5 |picknum=37 |team={{tfnl|MIN}} |first=Modest |last=Mussorgsky |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=5 |picknum=38 |team={{tfnl|NOR}} |first=Garth |last=Silver |dab= | position=S |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=5 |picknum=39 |team={{tfnl|KCC}} |first=Offe |last=Panic |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=6 |picknum=40 |team={{tfnl|BBB}} |first=Ivan |last=Baldwin |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=6 |picknum=41 |team={{tfnl|TIJ}} |first=Lloyd |last=Bannings |dab= | position=QB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=6 |picknum=42 |team={{tfnl|LON}} |first=Beeg |last=Beeg Yoshi, Jr. |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=6 |picknum=43 |team={{tfnl|POR}} |first=Trent |last=Silverback |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=6 |picknum=44 |team={{tfnl|KCC}} |first=William |last=Barkley |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=6 |picknum=45 |team={{tfnl|MIN}} |first=Kenny |last=Szymborski |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=6 |picknum=46 |team={{tfnl|NOR}} |first=Sean |last=Robinson |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=6 |picknum=47 |team={{tfnl|KCC}} |first=Rodney |last=Rosadino |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=7 |picknum=48 |team={{tfnl|BBB}} |first=Scruffy |last=The Janitor |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=7 |picknum=49 |team={{tfnl|TIJ}} |first=Spooky |last=Diddler III |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=7 |picknum=50 |team={{tfnl|LON}} |first=Bradley |last=Welch Jr. |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=7 |picknum=51 |team={{tfnl|POR}} |first=Leo |last=Stud |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=7 |picknum=52 |team={{tfnl|DBD}} |first=Pierce |last=Hawthorne |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=7 |picknum=53 |team={{tfnl|MIN}} |first=Liath |last=Squirrel |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=7 |picknum=54 |team={{tfnl|NOR}} |first=Nwoye |last=Musa |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=7 |picknum=55 |team={{tfnl|KCC}} |first=Eilliot |last=Berry |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=8 |picknum=56 |team={{tfnl|BBB}} |first=Burnt |last=Toast |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=8 |picknum=57 |team={{tfnl|TIJ}} |first=Orga |last=Panda |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=8 |picknum=58 |team={{tfnl|LON}} |first=Luca |last=Rossi |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=8 |picknum=59 |team={{tfnl|POR}} |first=Atlas |last=Kirkby |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=8 |picknum=60 |team={{tfnl|DBD}} |first=Wolfie |last=McDummy Jr. |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=8 |picknum=61 |team={{tfnl|MIN}} |first=Faust |last=Leercor |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=8 |picknum=62 |team={{tfnl|NOR}} |first=Sticky |last=Hands |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=8 |picknum=63 |team={{tfnl|KCC}} |first=Wade |last=Right |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=9 |picknum=64 |team={{tfnl|BBB}} |first=Amanda |last=HugAndKiss |dab= | position=S |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=9 |picknum=65 |team={{tfnl|TIJ}} |first=Garrett |last=Cheetahman |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=9 |picknum=66 |team={{tfnl|LON}} |first=Mickey |last=Mouse |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=9 |picknum=67 |team={{tfnl|POR}} |first=Saveour |last=Piethons |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=9 |picknum=68 |team={{tfnl|DBD}} |first=The |last=Riddler |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=9 |picknum=69 |team={{tfnl|MIN}} |first=Honey |last=Badger |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=9 |picknum=70 |team={{tfnl|NOR}} |first=Jean |last=Pierre III |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=9 |picknum=71 |team={{tfnl|KCC}} |first=Banjo |last=O'Kudah |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=10 |picknum=72 |team={{tfnl|BBB}} |first=Bart |last=Biggs |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=10 |picknum=73 |team={{tfnl|TIJ}} |first=Alex |last=Roth |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=10 |picknum=74 |team={{tfnl|LON}} |first=Cheeky |last=Lad |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=10 |picknum=75 |team={{tfnl|POR}} |first=Forozka |last=Duanei |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=10 |picknum=76 |team={{tfnl|DBD}} |first=Sid |last=The Sloth |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=10 |picknum=77 |team={{tfnl|MIN}} |first=Frederick |last=Carlson |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=10 |picknum=78 |team={{tfnl|NOR}} |first=Akele |last=Kekela |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=10 |picknum=79 |team={{tfnl|KCC}} |first=Donny |last=Doofenshmirtz |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=11 |picknum=80 |team={{tfnl|BBB}} |first=Quarl |last=Walkins III |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=11 |picknum=81 |team={{tfnl|TIJ}} |first=Hooker |last=Quin |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=11 |picknum=82 |team={{tfnl|LON}} |first=Wandamian |last=Weatherspoons III |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=11 |picknum=83 |team={{tfnl|POR}} |first=Lavondrius |last=Dingle |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=11 |picknum=84 |team={{tfnl|DBD}} |first=Jeremy |last=Hurst |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=11 |picknum=85 |team={{tfnl|MIN}} |first=Albert |last=Einstein |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=11 |picknum=86 |team={{tfnl|NOR}} |first=Slim |last=Reaper |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=11 |picknum=87 |team={{tfnl|KCC}} |first=Jake |last=Jefferson |dab= | position=QB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=12 |picknum=88 |team={{tfnl|BBB}} |first=Tyrone |last=Petrovich Jr. |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=12 |picknum=89 |team={{tfnl|TIJ}} |first=Joshua |last=Mabry |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=12 |picknum=90 |team={{tfnl|LON}} |first=Mathieu |last=Savard |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=12 |picknum=91 |team={{tfnl|POR}} |first=Jilk |last=Nutler |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=12 |picknum=92 |team={{tfnl|DBD}} |first=Hans |last=DiCaprio |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=12 |picknum=93 |team={{tfnl|MIN}} |first=Estuar |last=Bromson |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=12 |picknum=94 |team={{tfnl|NOR}} |first=Theo |last=Akersloot |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=12 |picknum=95 |team={{tfnl|KCC}} |first=Saul |last=Elkton |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=13 |picknum=96 |team={{tfnl|BBB}} |first=Jimmy |last=Anderson |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=13 |picknum=97 |team={{tfnl|TIJ}} |first=Buster |last=McBain |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=13 |picknum=98 |team={{tfnl|LON}} |first=Billy |last=Snow |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=13 |picknum=99 |team={{tfnl|POR}} |first=Greg |last=Howard |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=13 |picknum=100 |team={{tfnl|DBD}} |first=Great |last=Kahli |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=13 |picknum=101 |team={{tfnl|MIN}} |first=Rick |last=Skull |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=13 |picknum=102 |team={{tfnl|NOR}} |first=Bo |last=Stonerod |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=13 |picknum=103 |team={{tfnl|KCC}} |first=Doggi |last=O'Farraday |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=14 |picknum=104 |team={{tfnl|BBB}} |first=Pena |last=Nieto |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=14 |picknum=105 |team={{tfnl|TIJ}} |first=Jayden |last=Alexander |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=14 |picknum=106 |team={{tfnl|LON}} |first=TJ |last=Thom |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=14 |picknum=107 |team={{tfnl|POR}} |first=Bob |last=Bouncy |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=14 |picknum=108 |team={{tfnl|DBD}} |first=Freddie |last=Fran |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=14 |picknum=109 |team={{tfnl|MIN}} |first=Gavin |last=Hoppe |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=14 |picknum=110 |team={{tfnl|NOR}} |first=Cassius |last=Jameson |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=14 |picknum=111 |team={{tfnl|KCC}} |first=Coke |last=Zero |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=15 |picknum=112 |team={{tfnl|BBB}} |first=Hunter |last=Renphrow |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=15 |picknum=113 |team={{tfnl|TIJ}} |first=Buster |last=Beverly Jr. |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=15 |picknum=114 |team={{tfnl|LON}} |first=Grungus |last=Burgermeister |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|40|nolink}} |round=15 |picknum=115 |team={{tfnl|POR}} |first=Ethan |last=Mahlstedt |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-footer}}
+		
+;General references
+{{reflist|group="N"}}
+
+{{DSFL drafts}}
+[[Category:Developmental Simulation Football League Draft]]
+{| class="wikitable sortable" style="text-align:center"
+|-
+! Unit !! Round 1 !! Round 2 !! Round 3 !! Round 4 !! Round 5 !! Round 6 !! Round 7 !! Round 8 !! Round 9 !! Round 10 !! Round 11 !! Round 12 !! Round 13 !! Round 14 !! Round 15 !!  Total
+|-
+! Offense
+|  2 ||  3 ||  4 ||  4 ||  2 ||  6 ||  2 ||  4 ||  5 ||  6 ||  5 ||  5 ||  4 ||  6 ||  4 ||  style="background:#f2f2f2; text-align: center;"|'''62'''
+|-
+! Defense
+|  6 ||  4 ||  4 ||  4 ||  5 ||  2 ||  6 ||  3 ||  3 ||  1 ||  3 ||  2 ||  4 ||  2 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''49'''
+|-
+! Special Teams
+|  0 ||  1 ||  0 ||  0 ||  1 ||  0 ||  0 ||  1 ||  0 ||  1 ||  0 ||  1 ||  0 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''5'''
+|}
+		
+===Selections by position===
+{| class="wikitable sortable" style="text-align:center"
+|-
+! Position !! Round 1 !! Round 2 !! Round 3 !! Round 4 !! Round 5 !! Round 6 !! Round 7 !! Round 8 !! Round 9 !! Round 10 !! Round 11 !! Round 12 !! Round 13 !! Round 14 !! Round 15 !!  Total
+|-
+! {{AmFbPos|DE}}
+|  1 ||  1 ||  1 ||  0 ||  1 ||  1 ||  1 ||  1 ||  2 ||  1 ||  0 ||  1 ||  2 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''5'''
+|-
+! {{AmFbPos|DT}}
+|  2 ||  1 ||  0 ||  1 ||  1 ||  0 ||  2 ||  2 ||  0 ||  0 ||  0 ||  0 ||  0 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''9'''
+|-
+! {{AmFbPos|WR}}
+|  1 ||  3 ||  1 ||  1 ||  1 ||  1 ||  0 ||  2 ||  3 ||  1 ||  1 ||  1 ||  1 ||  1 ||  3 ||  style="background:#f2f2f2; text-align: center;"|'''21'''
+|-
+! {{AmFbPos|CB}}
+|  0 ||  1 ||  2 ||  1 ||  0 ||  1 ||  1 ||  0 ||  0 ||  0 ||  1 ||  0 ||  0 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''7'''
+|-
+! {{AmFbPos|LB}}
+|  1 ||  1 ||  0 ||  2 ||  1 ||  0 ||  2 ||  0 ||  0 ||  0 ||  2 ||  1 ||  2 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''13'''
+|-
+! {{AmFbPos|S}}
+|  2 ||  0 ||  1 ||  0 ||  2 ||  0 ||  0 ||  0 ||  1 ||  0 ||  0 ||  0 ||  0 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''6'''
+|-
+! {{AmFbPos|RB}}
+|  0 ||  0 ||  1 ||  0 ||  0 ||  0 ||  1 ||  1 ||  0 ||  2 ||  1 ||  0 ||  2 ||  3 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''12'''
+|-
+! {{AmFbPos|TE}}
+|  1 ||  0 ||  1 ||  2 ||  0 ||  2 ||  1 ||  1 ||  0 ||  1 ||  2 ||  2 ||  0 ||  2 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
+|-
+! {{AmFbPos|OL}}
+|  0 ||  0 ||  1 ||  1 ||  1 ||  2 ||  0 ||  0 ||  2 ||  2 ||  0 ||  2 ||  1 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''12'''
+|-
+! {{AmFbPos|QB}}
+|  0 ||  0 ||  0 ||  0 ||  0 ||  1 ||  0 ||  0 ||  0 ||  0 ||  1 ||  0 ||  0 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''2'''
+|-
+! {{AmFbPos|K}}
+|  0 ||  1 ||  0 ||  0 ||  1 ||  0 ||  0 ||  1 ||  0 ||  1 ||  0 ||  1 ||  0 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''5'''
+|}
+		
