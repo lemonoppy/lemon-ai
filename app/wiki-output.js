@@ -149,8 +149,25 @@ class Main {
 		return new Map([...DRAFT_COUNT_MAP.entries()].sort((a, b) => a[0] - b[0]));
 	}
 
+	async importData(_fileName) {
+		try {
+			if (process.argv[2]) {
+				console.log(process.argv[2])
+				const data = await import(`./data/${process.argv[2]}`);
+				if (data.default) {
+					return data.default;
+				}
+			}
+		} catch (error) {
+			console.log(`${error}`);
+			console.log(`Moving to fallback import.`)
+		}
+	}
+
     async startService() {
-		const { info: { season, league }, draft } = DraftData;
+		const argData = await this.importData();
+		const { info: { season, league }, draft } = (argData ? argData : DraftData);
+		
 		const numTeams = league === 'DSFL' ? DSFL_TEAMS_COUNT : ISFL_TEAMS_COUNT;
 		const fileDirectory = `./wiki-output/${league}`;
 		const fileName = `S${season}.txt`;
@@ -225,7 +242,7 @@ class Main {
 				getMapKeyValueByIndex(DRAFT_COUNT_MAP)[1], getMapKeyValueByIndex(DRAFT_COUNT_MAP)[0], 
 				draft.length
 			));
-			
+
 			appendFile(file, this.getIntroString(season, league));
 			appendFile(file, this.getEligiblePlayersSectionString(league, season, draft.length, POSITIONS));
 			appendFile(file, this.getPlayerSelectionsString(league, season, Math.ceil(draft.length / numTeams), draft));

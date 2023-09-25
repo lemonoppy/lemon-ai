@@ -17,50 +17,6 @@
 	| next = {{dsfly|41|nolink}}
 }}
 		
-The '''{{dsfly|40|nolink}} DSFL Draft''' was the 40th annual meeting of [[Developmental Simulation Football League]] (DSFL) franchises to select newly eligible players.
-==Eligible Players==
-In order to be eligible to enter the draft, players must be at least three years removed from high school. The deadline for underclassmen to declare for the draft was January 31, {{dsfly|40|nolink}}.
-		
-The following is the breakdown of the 116 eligible players by [[wp:American football positions|position]]:
-{{Div col|colwidth=13em|rules=yes}}
-*   9 x {{AmFBpos|DT|long}}        
-*   14 x {{AmFBpos|DE|long}}        
-*   21 x {{AmFBpos|WR|long}}       
-*   7 x {{AmFBpos|CB|long}}        
-*   13 x {{AmFBpos|LB|long}}        
-*   6 [[wp:Safety (gridiron football position)|Safeties]]
-*   12 x {{AmFBpos|RB|long}}        
-*   15  x {{AmFBpos|TE|long}}       
-*   2 x {{AmFBpos|QB|long}}        
-*   5 x {{AmFBpos|K-P|long}}       
-*   12 [[wp:Lineman (gridiron football)#Offensive line|Offensive linemen]]
-		
-{{Div col end}}
-		
-=Summary=
-===Selections by DSFL team===
-
-{| class="wikitable sortable" style="text-align:center"
-|-
-! DSFL Team !! Round 1 !! Round 2 !! Round 3 !! Round 4 !! Round 5 !! Round 6 !! Round 7 !! Round 8 !! Round 9 !! Round 10 !! Round 11 !! Round 12 !! Round 13 !! Round 14 !! Round 15 !!  Total
-|-
-! Norfolk Seawolves ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''14'''
-|-
-! Portland Pythons ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
-|-
-! Tijuana Luchadores ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
-|-
-! Kansas City Coyotes ||  1 ||  1 ||  1 ||  1 ||  1 ||  2 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
-|-
-! Bondi Beach Buccaneers ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
-|-
-! Minnesota Grey Ducks ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''14'''
-|-
-! Dallas Birddogs ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''13'''
-|-
-! London Royals ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
-|}
-		
 ==Player selections==
 {| border=0 cellspacing=""0"" cellpadding=""8""
 |-
@@ -313,23 +269,47 @@ The following is the breakdown of the 116 eligible players by [[wp:American foot
 		
 {{NSFLDraft-footer}}
 		
-;General references
-{{reflist|group="N"}}
+==Eligible Players==
+In order to be eligible to enter the draft, players must be at least three years removed from high school. The deadline for underclassmen to declare for the draft was January 31, {{dsfly|40|nolink}}.
+		
+The following is the breakdown of the 116 eligible players by [[wp:American football positions|position]]:
+{{Div col|colwidth=13em|rules=yes}}
+*   9 x {{AmFBpos|DT|long}}        
+*   14 x {{AmFBpos|DE|long}}        
+*   21 x {{AmFBpos|WR|long}}       
+*   7 x {{AmFBpos|CB|long}}        
+*   13 x {{AmFBpos|LB|long}}        
+*   6 [[wp:Safety (gridiron football position)|Safeties]]
+*   12 x {{AmFBpos|RB|long}}        
+*   15  x {{AmFBpos|TE|long}}       
+*   2 x {{AmFBpos|QB|long}}        
+*   5 x {{AmFBpos|K-P|long}}       
+*   12 [[wp:Lineman (gridiron football)#Offensive line|Offensive linemen]]
+		
+{{Div col end}}
+		
+=Summary=
+===Selections by DSFL team===
 
-{{DSFL drafts}}
-[[Category:Developmental Simulation Football League Draft]]
 {| class="wikitable sortable" style="text-align:center"
 |-
-! Unit !! Round 1 !! Round 2 !! Round 3 !! Round 4 !! Round 5 !! Round 6 !! Round 7 !! Round 8 !! Round 9 !! Round 10 !! Round 11 !! Round 12 !! Round 13 !! Round 14 !! Round 15 !!  Total
+! DSFL Team !! Round 1 !! Round 2 !! Round 3 !! Round 4 !! Round 5 !! Round 6 !! Round 7 !! Round 8 !! Round 9 !! Round 10 !! Round 11 !! Round 12 !! Round 13 !! Round 14 !! Round 15 !!  Total
 |-
-! Offense
-|  2 ||  3 ||  4 ||  4 ||  2 ||  6 ||  2 ||  4 ||  5 ||  6 ||  5 ||  5 ||  4 ||  6 ||  4 ||  style="background:#f2f2f2; text-align: center;"|'''62'''
+! Norfolk Seawolves ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''14'''
 |-
-! Defense
-|  6 ||  4 ||  4 ||  4 ||  5 ||  2 ||  6 ||  3 ||  3 ||  1 ||  3 ||  2 ||  4 ||  2 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''49'''
+! Portland Pythons ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
 |-
-! Special Teams
-|  0 ||  1 ||  0 ||  0 ||  1 ||  0 ||  0 ||  1 ||  0 ||  1 ||  0 ||  1 ||  0 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''5'''
+! Tijuana Luchadores ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
+|-
+! Kansas City Coyotes ||  1 ||  1 ||  1 ||  1 ||  1 ||  2 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
+|-
+! Bondi Beach Buccaneers ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
+|-
+! Minnesota Grey Ducks ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''14'''
+|-
+! Dallas Birddogs ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''13'''
+|-
+! London Royals ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''15'''
 |}
 		
 ===Selections by position===
@@ -368,6 +348,26 @@ The following is the breakdown of the 116 eligible players by [[wp:American foot
 |  0 ||  0 ||  0 ||  0 ||  0 ||  1 ||  0 ||  0 ||  0 ||  0 ||  1 ||  0 ||  0 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''2'''
 |-
 ! {{AmFbPos|K}}
+|  0 ||  1 ||  0 ||  0 ||  1 ||  0 ||  0 ||  1 ||  0 ||  1 ||  0 ||  1 ||  0 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''5'''
+|}
+		
+;General references
+{{reflist|group="N"}}
+
+{{DSFL drafts}}
+[[Category:Developmental Simulation Football League Draft]]
+The '''{{dsfly|40|nolink}} DSFL Draft''' was the 40th annual meeting of [[Developmental Simulation Football League]] (DSFL) franchises to select newly eligible players.
+{| class="wikitable sortable" style="text-align:center"
+|-
+! Unit !! Round 1 !! Round 2 !! Round 3 !! Round 4 !! Round 5 !! Round 6 !! Round 7 !! Round 8 !! Round 9 !! Round 10 !! Round 11 !! Round 12 !! Round 13 !! Round 14 !! Round 15 !!  Total
+|-
+! Offense
+|  2 ||  3 ||  4 ||  4 ||  2 ||  6 ||  2 ||  4 ||  5 ||  6 ||  5 ||  5 ||  4 ||  6 ||  4 ||  style="background:#f2f2f2; text-align: center;"|'''62'''
+|-
+! Defense
+|  6 ||  4 ||  4 ||  4 ||  5 ||  2 ||  6 ||  3 ||  3 ||  1 ||  3 ||  2 ||  4 ||  2 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''49'''
+|-
+! Special Teams
 |  0 ||  1 ||  0 ||  0 ||  1 ||  0 ||  0 ||  1 ||  0 ||  1 ||  0 ||  1 ||  0 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''5'''
 |}
 		

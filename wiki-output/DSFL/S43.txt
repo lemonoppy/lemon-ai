@@ -1,0 +1,301 @@
+
+{{Infobox DSFL Draft
+	| year = {{dsfly|43|nolink}}
+	| image = DSFLDraftLogo.png
+	| imagesize = 250px
+	| caption = DSFL draft logo
+	| first = [[Orange Julius]], {{AmFBpos|WR}}<br />{{tf|LON}}
+	| mr_irrelevant = [[Malcolm Baynes]], {{AmFBpos|QB}}<br />{{tf|QB}}
+	| mosttm1 = {{tf|BBB}} {{tf|DBD}} 
+	| mostnum = 12
+	| fewtm1 = {{tf|NOR}} 
+	| fewnum = 8
+	| overall = 80
+	| rounds = 10
+	| hofnum = 0
+	| prev = {{dsfly|42|nolink}}
+	| next = {{dsfly|44|nolink}}
+}}
+		
+==Player selections==
+{| border=0 cellspacing=""0"" cellpadding=""8""
+|-
+|{{NSFLDraft-TOC |numberofrounds=10|center=yes}}
+{|style=""margin: 0.75em 0 0 0.5em;""
+|-
+| style="background:#faecc8; border:1px solid #aaa; width:2em; text-align:center;"| †
+| = [[ISFL Pro Bowl]]er<ref name="Pro Bowler note" group="N">Players are identified as Pro Bowlers if they were selected for the [[ISFL Pro Bowl]] at any time in their career.</ref>
+|-
+| style="background-color:#FFCC00; border:1px solid #aaaaaa; width:2em; text-align:center;"| ‡
+|= [[ISFL Hall of Fame|Hall of Fame]]r<ref name="HOF note" group="N">Players are identified as a Hall of Famer if they have been inducted into the [[ISFL Hall of Fame]].</ref>
+|}
+| cellspacing=""2""|
+{{AmFootball position key modern}}
+|}
+{{clear}}
+{{NSFLDraft-header | noteswidth=250pt|dsfl=no}}
+
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=1 |picknum=0 |team={{tfnl|LON}} |first=Orange |last=Julius |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=1 |picknum=1 |team={{tfnl|POR}} |first=Jamie |last=Orion |dab= | position=S |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=1 |picknum=2 |team={{tfnl|BBB}} |first=Thomas |last=Passarelli |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=1 |picknum=3 |team={{tfnl|DBD}} |first=Joey |last=Battle |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=1 |picknum=4 |team={{tfnl|KCC}} |first=Dormo |last=Bloodhand |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=1 |picknum=5 |team={{tfnl|TIJ}} |first=Trent |last=Thigpen |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=1 |picknum=6 |team={{tfnl|MIN}} |first=Alexander |last=Hamlin |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=1 |picknum=7 |team={{tfnl|NOR}} |first=Pat |last=Uncertain |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=2 |picknum=8 |team={{tfnl|LON}} |first=Scott |last=Junior |dab= | position=S |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=2 |picknum=9 |team={{tfnl|POR}} |first=Jordan |last=Bamford |dab= | position=QB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=2 |picknum=10 |team={{tfnl|BBB}} |first=Zenzeroni |last=Xystarch II |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=2 |picknum=11 |team={{tfnl|DBD}} |first=Maple |last=Dogwood |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=2 |picknum=12 |team={{tfnl|KCC}} |first=Crazy |last=Tomato |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=2 |picknum=13 |team={{tfnl|TIJ}} |first=Theo |last=Blake |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=2 |picknum=14 |team={{tfnl|MIN}} |first=Wayne |last=Miller |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=2 |picknum=15 |team={{tfnl|BBB}} |first=Ryan |last=McBean |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=3 |picknum=16 |team={{tfnl|LON}} |first=A |last=Waffle |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=3 |picknum=17 |team={{tfnl|POR}} |first=Xavier |last=Moreno |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=3 |picknum=18 |team={{tfnl|BBB}} |first=Pete |last=Moss |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=3 |picknum=19 |team={{tfnl|DBD}} |first=Ryan |last=Labotep |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=3 |picknum=20 |team={{tfnl|KCC}} |first=Lenard |last=McRobinson |dab= | position=QB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=3 |picknum=21 |team={{tfnl|TIJ}} |first=Billy |last=Ennair |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=3 |picknum=22 |team={{tfnl|MIN}} |first=Domeo |last=Roubs |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=3 |picknum=23 |team={{tfnl|NOR}} |first=. |last=Gougar |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=4 |picknum=24 |team={{tfnl|LON}} |first=Geo |last=Roberts |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=4 |picknum=25 |team={{tfnl|POR}} |first=Felix |last=Waterman |dab= | position=S |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=4 |picknum=26 |team={{tfnl|BBB}} |first=Paul |last=McLaughlin |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=4 |picknum=27 |team={{tfnl|DBD}} |first=Gajeel |last=Redfox |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=4 |picknum=28 |team={{tfnl|KCC}} |first=Jarad |last=Marshall |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=4 |picknum=29 |team={{tfnl|DBD}} |first=Carter |last=Goad |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=4 |picknum=30 |team={{tfnl|MIN}} |first=Tua |last=TurnDaBallOva |dab= | position=QB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=4 |picknum=31 |team={{tfnl|BBB}} |first=Thor |last=Bollrsveifla |dab= | position=QB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=5 |picknum=32 |team={{tfnl|LON}} |first=Redd |last=Mistt |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=5 |picknum=33 |team={{tfnl|POR}} |first=Mattrim |last=Cauthon |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=5 |picknum=34 |team={{tfnl|BBB}} |first=Conway |last=Spittey |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=5 |picknum=35 |team={{tfnl|TIJ}} |first=Lod |last=Vilkshelm |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=5 |picknum=36 |team={{tfnl|KCC}} |first=Golden |last=Foote |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=5 |picknum=37 |team={{tfnl|TIJ}} |first=Logan |last=Johnson |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=5 |picknum=38 |team={{tfnl|DBD}} |first=Wario |last=Saturday |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=5 |picknum=39 |team={{tfnl|NOR}} |first=Diego |last=Lopez de Castilla |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=6 |picknum=40 |team={{tfnl|LON}} |first=Jelani |last=Avant |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=6 |picknum=41 |team={{tfnl|POR}} |first=Thor |last=Dangerson |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=6 |picknum=42 |team={{tfnl|BBB}} |first=Biggie |last=Fast |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=6 |picknum=43 |team={{tfnl|DBD}} |first=HK |last=19 |dab= | position=DT |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=6 |picknum=44 |team={{tfnl|KCC}} |first=Dylan |last=Friedland |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=6 |picknum=45 |team={{tfnl|DBD}} |first=John |last=Parano |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=6 |picknum=46 |team={{tfnl|MIN}} |first=Baron |last=Reaves |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=6 |picknum=47 |team={{tfnl|NOR}} |first=Rip |last=Torn |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=7 |picknum=48 |team={{tfnl|LON}} |first=Trey |last=Hyman |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=7 |picknum=49 |team={{tfnl|POR}} |first=Moonwolff |last=von Doomovic |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=7 |picknum=50 |team={{tfnl|BBB}} |first=Eric |last=James |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=7 |picknum=51 |team={{tfnl|DBD}} |first=Marty |last=Crane |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=7 |picknum=52 |team={{tfnl|KCC}} |first=Otis |last=Graber |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=7 |picknum=53 |team={{tfnl|TIJ}} |first=Dan |last=Sevin |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=7 |picknum=54 |team={{tfnl|MIN}} |first=Justin |last=Time |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=7 |picknum=55 |team={{tfnl|NOR}} |first=Buck |last=McTruck |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=8 |picknum=56 |team={{tfnl|LON}} |first=LeBlockus |last=BrickWall |dab= | position=OL |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=8 |picknum=57 |team={{tfnl|POR}} |first=Tim |last=Tebow Jr. |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=8 |picknum=58 |team={{tfnl|BBB}} |first=Andrew |last=Wilson |dab= | position=RB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=8 |picknum=59 |team={{tfnl|DBD}} |first=Lane |last=Frost III |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=8 |picknum=60 |team={{tfnl|KCC}} |first=Adam |last=Dietzel |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=8 |picknum=61 |team={{tfnl|TIJ}} |first=Big |last=Birtha |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=8 |picknum=62 |team={{tfnl|MIN}} |first=Fieramosca |last=Malatesta |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=8 |picknum=63 |team={{tfnl|NOR}} |first=Dunkin |last=Lazlo |dab= | position=S |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=9 |picknum=64 |team={{tfnl|LON}} |first=Bronco |last=Stallion |dab= | position=CB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=9 |picknum=65 |team={{tfnl|POR}} |first=Unuway |last=Jepthat |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=9 |picknum=66 |team={{tfnl|BBB}} |first=Jackson |last=Smart |dab= | position=DE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=9 |picknum=67 |team={{tfnl|DBD}} |first=Carlos |last=Monfils |dab= | position=S |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=9 |picknum=68 |team={{tfnl|KCC}} |first=Jerod |last=Mustard |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=9 |picknum=69 |team={{tfnl|TIJ}} |first=William |last=Lucas |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=9 |picknum=70 |team={{tfnl|MIN}} |first=Michael |last=Morton |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=9 |picknum=71 |team={{tfnl|NOR}} |first=Desmond |last=Jones |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=10 |picknum=72 |team={{tfnl|LON}} |first=PasLewy |last=Weaver |dab= | position=KP |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=10 |picknum=73 |team={{tfnl|POR}} |first=Chris |last=Bourassa |dab= | position=LB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=10 |picknum=74 |team={{tfnl|BBB}} |first=Austin |last=Gausman |dab= | position=QB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=10 |picknum=75 |team={{tfnl|DBD}} |first=Christopher |last=Wilson |dab= | position=QB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=10 |picknum=76 |team={{tfnl|KCC}} |first=Joey |last=Flex |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=10 |picknum=77 |team={{tfnl|TIJ}} |first=Bobby |last=Hands |dab= | position=WR |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=10 |picknum=78 |team={{tfnl|MIN}} |first=Bradley |last=Uppercrust III |dab= | position=TE |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-row |draftyear={{nsfly|43|nolink}} |round=10 |picknum=79 |team={{tfnl|NOR}} |first=Malcolm |last=Baynes |dab= | position=QB |probowl= |hof= |note=  |cfb page exists=yes}}
+		
+{{NSFLDraft-footer}}
+		
+==Eligible Players==
+In order to be eligible to enter the draft, players must be at least three years removed from high school. The deadline for underclassmen to declare for the draft was January 31, {{dsfly|43|nolink}}.
+		
+The following is the breakdown of the 80 eligible players by [[wp:American football positions|position]]:
+{{Div col|colwidth=13em|rules=yes}}
+*   6 x {{AmFBpos|DT|long}}        
+*   3 x {{AmFBpos|DE|long}}        
+*   10 x {{AmFBpos|WR|long}}       
+*   7 x {{AmFBpos|CB|long}}        
+*   9 x {{AmFBpos|LB|long}}        
+*   5 [[wp:Safety (gridiron football position)|Safeties]]
+*   4 x {{AmFBpos|RB|long}}        
+*   12  x {{AmFBpos|TE|long}}       
+*   7 x {{AmFBpos|QB|long}}        
+*   7 x {{AmFBpos|K-P|long}}       
+*   10 [[wp:Lineman (gridiron football)#Offensive line|Offensive linemen]]
+		
+{{Div col end}}
+		
+=Summary=
+===Selections by DSFL team===
+
+{| class="wikitable sortable" style="text-align:center"
+|-
+! DSFL Team !! Round 1 !! Round 2 !! Round 3 !! Round 4 !! Round 5 !! Round 6 !! Round 7 !! Round 8 !! Round 9 !! Round 10 !!  Total
+|-
+! Norfolk Seawolves ||  1 ||  0 ||  1 ||  0 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''8'''
+|-
+! Portland Pythons ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''10'''
+|-
+! Tijuana Luchadores ||  1 ||  1 ||  1 ||  0 ||  2 ||  0 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''9'''
+|-
+! Kansas City Coyotes ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''10'''
+|-
+! Bondi Beach Buccaneers ||  1 ||  2 ||  1 ||  2 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''12'''
+|-
+! Minnesota Grey Ducks ||  1 ||  1 ||  1 ||  1 ||  0 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''9'''
+|-
+! Dallas Birddogs ||  1 ||  1 ||  1 ||  2 ||  1 ||  2 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''12'''
+|-
+! London Royals ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''10'''
+|}
+		
+===Selections by position===
+{| class="wikitable sortable" style="text-align:center"
+|-
+! Position !! Round 1 !! Round 2 !! Round 3 !! Round 4 !! Round 5 !! Round 6 !! Round 7 !! Round 8 !! Round 9 !! Round 10 !!  Total
+|-
+! {{AmFbPos|DE}}
+|  0 ||  1 ||  0 ||  0 ||  0 ||  0 ||  0 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''7'''
+|-
+! {{AmFbPos|DT}}
+|  2 ||  1 ||  0 ||  0 ||  2 ||  1 ||  0 ||  0 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''6'''
+|-
+! {{AmFbPos|WR}}
+|  2 ||  0 ||  1 ||  1 ||  2 ||  1 ||  1 ||  1 ||  0 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''10'''
+|-
+! {{AmFbPos|CB}}
+|  1 ||  1 ||  1 ||  1 ||  0 ||  1 ||  0 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''7'''
+|-
+! {{AmFbPos|LB}}
+|  1 ||  0 ||  4 ||  0 ||  0 ||  1 ||  1 ||  1 ||  0 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''9'''
+|-
+! {{AmFbPos|S}}
+|  1 ||  1 ||  0 ||  1 ||  0 ||  0 ||  0 ||  1 ||  1 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''5'''
+|-
+! {{AmFbPos|RB}}
+|  0 ||  1 ||  0 ||  0 ||  0 ||  0 ||  2 ||  1 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''4'''
+|-
+! {{AmFbPos|TE}}
+|  1 ||  1 ||  1 ||  0 ||  1 ||  2 ||  1 ||  0 ||  3 ||  2 ||  style="background:#f2f2f2; text-align: center;"|'''12'''
+|-
+! {{AmFbPos|OL}}
+|  0 ||  0 ||  0 ||  3 ||  1 ||  2 ||  3 ||  1 ||  0 ||  0 ||  style="background:#f2f2f2; text-align: center;"|'''10'''
+|-
+! {{AmFbPos|QB}}
+|  0 ||  1 ||  1 ||  2 ||  0 ||  0 ||  0 ||  0 ||  0 ||  3 ||  style="background:#f2f2f2; text-align: center;"|'''7'''
+|-
+! {{AmFbPos|K}}
+|  0 ||  1 ||  0 ||  0 ||  2 ||  0 ||  0 ||  1 ||  2 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''7'''
+|}
+		
+;General references
+{{reflist|group="N"}}
+
+{{DSFL drafts}}
+[[Category:Developmental Simulation Football League Draft]]
+{| class="wikitable sortable" style="text-align:center"
+|-
+! Unit !! Round 1 !! Round 2 !! Round 3 !! Round 4 !! Round 5 !! Round 6 !! Round 7 !! Round 8 !! Round 9 !! Round 10 !!  Total
+|-
+! Offense
+|  3 ||  3 ||  3 ||  6 ||  4 ||  5 ||  7 ||  3 ||  3 ||  6 ||  style="background:#f2f2f2; text-align: center;"|'''43'''
+|-
+! Defense
+|  5 ||  4 ||  5 ||  2 ||  2 ||  3 ||  1 ||  4 ||  3 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''30'''
+|-
+! Special Teams
+|  0 ||  1 ||  0 ||  0 ||  2 ||  0 ||  0 ||  1 ||  2 ||  1 ||  style="background:#f2f2f2; text-align: center;"|'''7'''
+|}
+		
+The '''{{dsfly|43|nolink}} DSFL Draft''' was the 43rd annual meeting of [[Developmental Simulation Football League]] (DSFL) franchises to select newly eligible players.
