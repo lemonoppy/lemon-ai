@@ -52,8 +52,34 @@ The following is the breakdown of the ${_totalPlayers} eligible players by [[wp:
 {{Div col end}}
 		`
 	},
-	DSFL_PLAYER_STRING: (_season, _round, _pick, _team, _firstName, _lastName, _position) => {
+	PLAYER_STRING_DSFL: (_season, _round, _pick, _team, _firstName, _lastName, _position) => {
 		return `{{NSFLDraft-row |draftyear={{nsfly|${_season}|nolink}} |round=${_round} |picknum=${_pick} |team={{tfnl|${_team}}} |first=${_firstName} |last=${_lastName} |dab= | position=${_position} |probowl= |hof= |note=  |cfb page exists=yes}}
+		`
+	},
+	TEAM_SELECTIONS_DSFL: (_header, _NOR, _POR, _TIJ, _KCC, _BBB, _MIN, _DBD, _LON) => {
+		return `
+===Selections by DSFL team===
+
+{| class="wikitable sortable" style="text-align:center"
+|-
+! DSFL Team !! ${_header} Total
+|-
+! Norfolk Seawolves || ${_NOR[0]} style="background:#f2f2f2; text-align: center;"|'''${_NOR[1]}'''
+|-
+! Portland Pythons || ${_POR[0]} style="background:#f2f2f2; text-align: center;"|'''${_POR[1]}'''
+|-
+! Tijuana Luchadores || ${_TIJ[0]} style="background:#f2f2f2; text-align: center;"|'''${_TIJ[1]}'''
+|-
+! Kansas City Coyotes || ${_KCC[0]} style="background:#f2f2f2; text-align: center;"|'''${_KCC[1]}'''
+|-
+! Bondi Beach Buccaneers || ${_BBB[0]} style="background:#f2f2f2; text-align: center;"|'''${_BBB[1]}'''
+|-
+! Minnesota Grey Ducks || ${_MIN[0]} style="background:#f2f2f2; text-align: center;"|'''${_MIN[1]}'''
+|-
+! Dallas Birddogs || ${_DBD[0]} style="background:#f2f2f2; text-align: center;"|'''${_DBD[1]}'''
+|-
+! London Royals || ${_LON[0]} style="background:#f2f2f2; text-align: center;"|'''${_LON[1]}'''
+|}
 		`
 	}
 

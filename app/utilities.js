@@ -86,8 +86,8 @@ function multipleTeamLinkBuilder(_teams) {
 	return outputString;
 }
 
-	// Relying on sorted data
-	// Pretty sure this check is slightly inefficient
+// Relying on sorted data
+// Pretty sure this check is slightly inefficient
 function getMapKeyValueByIndex(_map, _index = 0) {
 	if (_index === 'last')
 		return [[..._map][_map.size-1][0], [..._map][_map.size-1][1]];		
@@ -98,4 +98,13 @@ function parseName(_name) {
 	return [_name.substring(0, _name.indexOf(' ')), _name.substring(_name.indexOf(' ') + 1)]
 }
 
-export { parsePosition, parseDSFLTeam, parseISFLTeam, getNthSuffix, getUnit, multipleTeamLinkBuilder, getMapKeyValueByIndex, parseName }
+function buildPipedRow(_row, _divider = '||', _prefix = '') {
+	let outputString = '';
+	_row.forEach(element => {
+		outputString += `${_prefix} ${element} ${_divider} `;
+	})
+
+	return outputString;
+}
+
+export { parsePosition, parseDSFLTeam, parseISFLTeam, getNthSuffix, getUnit, multipleTeamLinkBuilder, getMapKeyValueByIndex, parseName, buildPipedRow }

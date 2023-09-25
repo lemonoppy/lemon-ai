@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { parseDSFLTeam, parseISFLTeam, parsePosition, getMapKeyValueByIndex, parseName } from './utilities.js';
+import { parseDSFLTeam, parseISFLTeam, parsePosition, getMapKeyValueByIndex, parseName, buildPipedRow } from './utilities.js';
 import STRINGS from "./wiki-output.strings.js";
 import DraftData from './data/s43dsfl.js';
 
@@ -43,7 +43,31 @@ class Main {
 	}
 
 	getDSFLPlayerString(_season, _round, _pick, _team, _firstName, _lastName, _position) {
-		return STRINGS.DSFL_PLAYER_STRING(_season, _round, _pick, _team, _firstName, _lastName, _position);
+		return STRINGS.PLAYER_STRING_DSFL(_season, _round, _pick, _team, _firstName, _lastName, _position);
+	}
+
+	buildTeamSelectionsRow(_teamSelections) {
+		return [buildPipedRow(_teamSelections), _.sum(_teamSelections)]
+	}
+
+	getTeamSelectionsDSFLString(_teamSelections, _rounds) {
+		let blankDraftRoundArray = [];
+		for (let x = 0; x < _rounds; x++) {
+			blankDraftRoundArray.push(x + 1);
+		}
+
+
+		return STRINGS.TEAM_SELECTIONS_DSFL(
+			buildPipedRow(blankDraftRoundArray, '!!', 'Round'), 
+			this.buildTeamSelectionsRow(_teamSelections['NOR']), 
+			this.buildTeamSelectionsRow(_teamSelections['POR']),
+			this.buildTeamSelectionsRow(_teamSelections['TIJ']), 
+			this.buildTeamSelectionsRow(_teamSelections['KCC']), 
+			this.buildTeamSelectionsRow(_teamSelections['BBB']), 
+			this.buildTeamSelectionsRow(_teamSelections['MIN']), 
+			this.buildTeamSelectionsRow(_teamSelections['DBD']), 
+			this.buildTeamSelectionsRow(_teamSelections['LON'])
+		);
 	}
 
 	getPlayerString(_player, _draftPosition, _teamCount) {
@@ -70,6 +94,7 @@ class Main {
     async startService() {
         this.postStartingMessage();
 		const { info: { season, league }, draft } = DraftData;
+		const numTeams = league === 'DSFL' ? DSFL_TEAMS_COUNT : ISFL_TEAMS_COUNT;
 
 		let blankDraftRoundArray = [];
 		for (let x = 0; x < draft.length / (league === 'DSFL' ? DSFL_TEAMS_COUNT : ISFL_TEAMS_COUNT); x++) {
@@ -108,7 +133,6 @@ class Main {
 		});
 
         for (let x = 0; x < draft.length ; x++) {
-			const numTeams = league === 'DSFL' ? DSFL_TEAMS_COUNT : ISFL_TEAMS_COUNT;
 			const player = draft[x];
 			const round = Math.floor(x/numTeams) + 1;
 
@@ -117,7 +141,7 @@ class Main {
 			
 			// console.log(this.getPlayerString(draft, x, DSFL_TEAMS));
 			if (league === 'DSFL') {
-				console.log(this.getDSFLPlayerString(season, round, x, parseDSFLTeam(player.Team), parseName(player.Name)[0], parseName(player.Name)[1], parsePosition(player.Position)));
+				// console.log(this.getDSFLPlayerString(season, round, x, parseDSFLTeam(player.Team), parseName(player.Name)[0], parseName(player.Name)[1], parsePosition(player.Position)));
 			}
 		}
 
@@ -135,6 +159,8 @@ class Main {
 
 		const EligiblePlayersSectionString = this.getEligiblePlayersSectionString(league, season, draft.length, POSITIONS);
 
+		const TeamSelectionsString = this.getTeamSelectionsDSFLString(DSFL_TEAMS, Math.ceil(draft.length / numTeams));
+		console.log(TeamSelectionsString)
     }
 }
 
