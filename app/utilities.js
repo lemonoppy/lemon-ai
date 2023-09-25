@@ -10,7 +10,7 @@ function parsePosition(_position) {
 		case 'Safety': return 'S';
 		case 'Tight End': return 'TE';
 		case 'Wide Receiver': return 'WR';
-		case 'Kicker': return 'K';
+		case 'Kicker': return 'KP';
 		default: return _position;
 	}
 }

@@ -32,25 +32,24 @@ const STRINGS = {
 	},
 	ELIGIBLE_PLAYERS_SECTION_DSFL: (_season, _totalPlayers, _DTCount, _DECount, _WRCount, _CBCount, _LBCount, _SCount, _RBCount, _TECount, _QBCount, _KCount, _OLCount) => {
 		return `
-			==Eligible players==
-			In order to be eligible to enter the draft, players must be at least three years removed from high school. The deadline for underclassmen to declare for the draft was January 31, {{dsfly|${_season}|nolink}}.
-
-			The following is the breakdown of the ${_totalPlayers} eligible players by [[wp:American football positions|position]]:
-			{{Div col|colwidth=13em|rules=yes}}
-
-			*   ${_DTCount} x {{AmFBpos|DT|long}}
-			*   ${_DECount} x {{AmFBpos|DE|long}}
-			*   ${_WRCount} x {{AmFBpos|WR|long}}
-			*   ${_CBCount} x {{AmFBpos|CB|long}}
-			*   ${_LBCount} x {{AmFBpos|LB|long}}
-			*   ${_SCount} [[wp:Safety (gridiron football position)|Safeties]]
-			*   ${_RBCount} x {{AmFBpos|RB|long}}
-			*   ${_TECount} x {{AmFBpos|TE|long}}
-			*   ${_QBCount} x {{AmFBpos|QB|long}}
-			*   ${_KCount} x {{AmFBpos|K-P|long}}
-			*   ${_OLCount} [[wp:Lineman (gridiron football)#Offensive line|Offensive linemen]]
-
-			{{Div col end}}
+==Eligible players==
+In order to be eligible to enter the draft, players must be at least three years removed from high school. The deadline for underclassmen to declare for the draft was January 31, {{dsfly|${_season}|nolink}}.
+		
+The following is the breakdown of the ${_totalPlayers} eligible players by [[wp:American football positions|position]]:
+{{Div col|colwidth=13em|rules=yes}}
+*   ${_DTCount} x {{AmFBpos|DT|long}}        
+*   ${_DECount} x {{AmFBpos|DE|long}}        
+*   ${_WRCount} x {{AmFBpos|WR|long}}       
+*   ${_CBCount} x {{AmFBpos|CB|long}}        
+*   ${_LBCount} x {{AmFBpos|LB|long}}        
+*   ${_SCount} [[wp:Safety (gridiron football position)|Safeties]]
+*   ${_RBCount} x {{AmFBpos|RB|long}}        
+*   ${_TECount}  x {{AmFBpos|TE|long}}       
+*   ${_QBCount} x {{AmFBpos|QB|long}}        
+*   ${_KCount} x {{AmFBpos|K-P|long}}       
+*   ${_OLCount} [[wp:Lineman (gridiron football)#Offensive line|Offensive linemen]]
+		
+{{Div col end}}
 		`
 	}
 
