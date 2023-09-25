@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { parseDSFLTeam, parseISFLTeam, parsePosition } from './utilities.js';
+import { parseDSFLTeam, parseISFLTeam, parsePosition, getMapKeyValueByIndex } from './utilities.js';
 import STRINGS from "./wiki-output.strings.js";
 import DraftData from './data/s43dsfl.js';
 
@@ -53,15 +53,6 @@ class Main {
 		return new Map([...DRAFT_COUNT_MAP.entries()].sort((a, b) => a[0] - b[0]));
 	}
 
-	// Relying on sorted data
-	// Pretty sure this check is slightly inefficient
-	getMapKeyValueByIndex(_map, _index = 0) {
-		if (_index === 'last')
-			return [[..._map][_map.size-1][0], [..._map][_map.size-1][1]];
-		
-		return [[..._map][_index][0], [..._map][_index][1]];
-	}
-
     async startService() {
         this.postStartingMessage();
 		const { info: { season, league }, draft } = DraftData;
@@ -91,8 +82,8 @@ class Main {
 			league, season, 
 			draft[0].Name, draft[0].Position, parseDSFLTeam(draft[0].Team), 
 			draft[draft.length - 1].Name, draft[draft.length - 1].Position, parseDSFLTeam(draft[draft.length - 1].Team), 
-			this.getMapKeyValueByIndex(DRAFT_COUNT_MAP, 'last')[1], this.getMapKeyValueByIndex(DRAFT_COUNT_MAP, 'last')[0], 
-			this.getMapKeyValueByIndex(DRAFT_COUNT_MAP)[1], this.getMapKeyValueByIndex(DRAFT_COUNT_MAP)[0], 
+			getMapKeyValueByIndex(DRAFT_COUNT_MAP, 'last')[1], getMapKeyValueByIndex(DRAFT_COUNT_MAP, 'last')[0], 
+			getMapKeyValueByIndex(DRAFT_COUNT_MAP)[1], getMapKeyValueByIndex(DRAFT_COUNT_MAP)[0], 
 			draft.length)
 		);
 

@@ -86,4 +86,12 @@ function multipleTeamLinkBuilder(_teams) {
 	return outputString;
 }
 
-export { parsePosition, parseDSFLTeam, parseISFLTeam, getNthSuffix, getUnit, multipleTeamLinkBuilder }
+	// Relying on sorted data
+	// Pretty sure this check is slightly inefficient
+function getMapKeyValueByIndex(_map, _index = 0) {
+	if (_index === 'last')
+		return [[..._map][_map.size-1][0], [..._map][_map.size-1][1]];		
+	return [[..._map][_index][0], [..._map][_index][1]];
+}
+
+export { parsePosition, parseDSFLTeam, parseISFLTeam, getNthSuffix, getUnit, multipleTeamLinkBuilder, getMapKeyValueByIndex }
