@@ -11,23 +11,23 @@ const STRINGS = {
 	},
 	INFOBOX_DSFL: (_season, _first, _firstPosition, _firstTeam, _last, _lastPosition, _lastTeam, _mostPicks, _mostPicksCount, _fewestPicks, _fewestPicksCount, _totalPlayers) => {
 		return `
-		{{Infobox DSFL Draft
-			| year = {{dsfly|${_season}|nolink}}
-			| image = DSFLDraftLogo.png
-			| imagesize = 250px
-			| caption = DSFL draft logo
-			| first = [[${_first}]], {{AmFBpos|${_firstPosition}}}<br />{{tf|${_firstTeam}}}
-			| mr_irrelevant = [[${_last}]], {{AmFBpos|${_lastPosition}}}<br />{{tf|${_lastPosition}}}
-			| mosttm1 = ${multipleTeamLinkBuilder(_mostPicks)}
-			| mostnum = ${_mostPicksCount}
-			| fewtm1 = ${multipleTeamLinkBuilder(_fewestPicks)}
-			| fewnum = ${_fewestPicksCount}
-			| overall = ${_totalPlayers}
-			| rounds = ${Math.ceil(_totalPlayers / DSFL_TEAMS)}
-			| hofnum = 0
-			| prev = {{dsfly|${_season - 1}|nolink}}
-			| next = {{dsfly|${_season + 1}|nolink}}
-		}}
+{{Infobox DSFL Draft
+	| year = {{dsfly|${_season}|nolink}}
+	| image = DSFLDraftLogo.png
+	| imagesize = 250px
+	| caption = DSFL draft logo
+	| first = [[${_first}]], {{AmFBpos|${_firstPosition}}}<br />{{tf|${_firstTeam}}}
+	| mr_irrelevant = [[${_last}]], {{AmFBpos|${_lastPosition}}}<br />{{tf|${_lastPosition}}}
+	| mosttm1 = ${multipleTeamLinkBuilder(_mostPicks)}
+	| mostnum = ${_mostPicksCount}
+	| fewtm1 = ${multipleTeamLinkBuilder(_fewestPicks)}
+	| fewnum = ${_fewestPicksCount}
+	| overall = ${_totalPlayers}
+	| rounds = ${Math.ceil(_totalPlayers / DSFL_TEAMS)}
+	| hofnum = 0
+	| prev = {{dsfly|${_season - 1}|nolink}}
+	| next = {{dsfly|${_season + 1}|nolink}}
+}}
 		`
 	},
 	ELIGIBLE_PLAYERS_SECTION_DSFL: (_season, _totalPlayers, _DTCount, _DECount, _WRCount, _CBCount, _LBCount, _SCount, _RBCount, _TECount, _QBCount, _KCount, _OLCount) => {
@@ -53,11 +53,13 @@ The following is the breakdown of the ${_totalPlayers} eligible players by [[wp:
 		`
 	},
 	PLAYER_STRING_DSFL: (_season, _round, _pick, _team, _firstName, _lastName, _position) => {
-		return `{{NSFLDraft-row |draftyear={{nsfly|${_season}|nolink}} |round=${_round} |picknum=${_pick} |team={{tfnl|${_team}}} |first=${_firstName} |last=${_lastName} |dab= | position=${_position} |probowl= |hof= |note=  |cfb page exists=yes}}
+		return `
+{{NSFLDraft-row |draftyear={{nsfly|${_season}|nolink}} |round=${_round} |picknum=${_pick} |team={{tfnl|${_team}}} |first=${_firstName} |last=${_lastName} |dab= | position=${_position} |probowl= |hof= |note=  |cfb page exists=yes}}
 		`
 	},
 	TEAM_SELECTIONS_DSFL: (_header, _NOR, _POR, _TIJ, _KCC, _BBB, _MIN, _DBD, _LON) => {
 		return `
+=Summary=
 ===Selections by DSFL team===
 
 {| class="wikitable sortable" style="text-align:center"
@@ -139,6 +141,37 @@ The following is the breakdown of the ${_totalPlayers} eligible players by [[wp:
 ! Special Teams
 | ${_specialTeams[0]} style="background:#f2f2f2; text-align: center;"|'''${_specialTeams[1]}'''
 |}
+		`
+	},
+	FOOTER_TEXT_DSFL: () => {
+		return `
+;General references
+{{reflist|group="N"}}
+
+{{DSFL drafts}}
+[[Category:Developmental Simulation Football League Draft]]`
+	},
+	PLAYER_SELECTIONS_DSFL: (_rounds, _players) => {
+		return `
+==Player selections==
+{| border=0 cellspacing=""0"" cellpadding=""8""
+|-
+|{{NSFLDraft-TOC |numberofrounds=${_rounds}|center=yes}}
+{|style=""margin: 0.75em 0 0 0.5em;""
+|-
+| style="background:#faecc8; border:1px solid #aaa; width:2em; text-align:center;"| †
+| = [[ISFL Pro Bowl]]er<ref name="Pro Bowler note" group="N">Players are identified as Pro Bowlers if they were selected for the [[ISFL Pro Bowl]] at any time in their career.</ref>
+|-
+| style="background-color:#FFCC00; border:1px solid #aaaaaa; width:2em; text-align:center;"| ‡
+|= [[ISFL Hall of Fame|Hall of Fame]]r<ref name="HOF note" group="N">Players are identified as a Hall of Famer if they have been inducted into the [[ISFL Hall of Fame]].</ref>
+|}
+| cellspacing=""2""|
+{{AmFootball position key modern}}
+|}
+{{clear}}
+{{NSFLDraft-header | noteswidth=250pt|dsfl=no}}
+${_players}
+{{NSFLDraft-footer}}
 		`
 	}
 
