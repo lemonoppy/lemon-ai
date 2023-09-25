@@ -51,4 +51,13 @@ function parseDSFLTeam(_team) {
 	}
 }
 
-export { parsePosition, parseDSFLTeam, parseISFLTeam }
+function getNthSuffix(_number) {
+	switch(_number % 10) {
+		case 1: return 'st';
+		case 2: return 'nd';
+		case 3: return 'rd';
+		default: return 'th';
+	}
+}
+
+export { parsePosition, parseDSFLTeam, parseISFLTeam, getNthSuffix }

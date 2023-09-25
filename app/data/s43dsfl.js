@@ -1,6 +1,6 @@
 const DRAFT_DATA = {
 	info: {
-		season: '43',
+		season: 43,
 		league: 'DSFL'
 	},
 	draft: [
